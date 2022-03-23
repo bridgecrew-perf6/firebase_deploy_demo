@@ -15,7 +15,7 @@ jobs:
       - name: Install Flutter
         run: git clone https://github.com/flutter/flutter.git
       - name: Add path
-        run: echo "$igarashi15007/flutter/bin" >> $GITHUB_PATH
+        run: echo "$(igarashi15007)/flutter/bin" >> $GITHUB_PATH
       - name: Download Flutter packages
         run: flutter pub get
       # -------- #
